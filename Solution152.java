@@ -12,7 +12,7 @@ class Solution152 {
         Scanner in = new Scanner(System.in);
         long A = in.nextLong();
         double B=Math.pow(A,A+1);
-        int c=(int)B;
+        long c=(long)B;
 
         // Write an answer using System.out.println()
         // To debug: System.err.println("Debug messages...");
